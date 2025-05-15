@@ -10,11 +10,11 @@ class AboutAsserts(unittest.TestCase):
 
     def test_assert_truth(self):
 
-        assert False # replace with True
+        assert True # replace with True
 
     def test_equality(self):
 
-        assert __ == 1 + 1
+        assert 2 == 1 + 1
 
     def test_equality_with_assignment(self):
 
